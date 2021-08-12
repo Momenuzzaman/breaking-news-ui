@@ -1,13 +1,12 @@
 
 import './App.css';
-import Button from '@material-ui/core/Button';
+import News from './Components/News/News';
 
 function App() {
   return (
     <div>
-      <Button variant="contained" color="secondary">
-        Secondary
-      </Button>
+    
+      <News></News>
     </div>
   );
 }
